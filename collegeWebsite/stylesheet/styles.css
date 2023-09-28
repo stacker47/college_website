@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header .college-name{
+  height: 2%;
+  display: inline-flex;
+  margin-left: 10%;
+  
+}
+header .college-name div{
+  width: 80%;
+}
+.college-name img{
+  border: transparent;
+}
+.college-name div button{
+  position: relative;
+  width: 300px;
+  height: 40px;
+  font-weight: bolder;
+  font-size: x-large ;
+  float: right;
+  margin-right: 15%;
+  top: 35%;
+}
+div nav ul{
+  list-style-type: none;
+  /* border: 1px red solid; */
+  display: inline-flex;
+  width: 100%;
+  background-color: rgb(12, 12, 62);
+}
+div nav ul li{
+  margin: 0% 1% 0% 1%;
+  /* display: inline-block; */
+  /* border: 2px blue solid; */
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: larger;
+    padding-top: 10px;
+    left: 25%;
+    
+  }
+  .dropdown:hover{
+    background-color: #ff0000;
+    height: 30px;
+    width: 150px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: max-content;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    margin-top: 7px;
+    padding: 2px 2px;
+    height: 15px;
+    z-index: 1;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    background-color: rgba(230, 229, 229, 0.879);
+    height: max-content;
+    display: block;
+  }
+  .dropdown .dropdown-content div:hover{
+    background-color: blanchedalmond;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  .dropdown-content div a{
+    color: black;
+  }
+ 
+  
